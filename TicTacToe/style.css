@@ -1,0 +1,50 @@
+body{
+  margin: 10% auto;
+
+}
+#board
+{
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #34495e;
+    color:yellow;
+    border: 6px solid #2c3e50;
+    border-radius: 10px;
+	
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.box
+{
+  border: 6px solid #2c3e50;
+  border-radius: 2px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button
+{
+    background-color: aquamarine;
+    display: flex;
+    margin: 0 auto;
+    font-weight: bold;
+ 
+}
+#video-background {
+  position: absolute;
+  right: 0; 
+  bottom: 0;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
